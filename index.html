@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+
+
+</head>
+
+<body>
+    <div class="title">
+        <div class="mountains">
+            <div class="mountain-1"></div>
+            <div class="mountain-2"></div>
+            <div class="mountain-3"></div>
+        </div>
+        <div class="name">
+            <h1>个人简介：王参</h1>
+            <p>安徽中医药大学&&韩国顺天乡大学（2+2）<br /> 专业：计算机软件开发<br />
+                目标岗位：软件测试工程师、Web前端开发、Java开发 </p>
+
+        </div>
+        <div class="bigbox">
+            <p class="time" id="nowdata">234</p>
+
+            <p class="day" id="nowday">123</p>
+
+        </div>
+
+        <div class="bear"></div>
+    </div>
+
+    <div class="baseintro" id="simpleint">
+        <div class="basehead">
+            <h2>基本介绍</h2>
+        </div>
+        <div class="zhaopian">
+            <img src="images/zhaopian.jpg" alt="">
+        </div>
+        <!-- 一定要记得清除浮动，要不然两个盒子会重叠 -->
+        <div class="basebody clearfix">
+            <ul>
+                <li>：安徽中医药大学&&韩国顺天乡大学（2+2）</li>
+                <li>: 计算机软件开发</li>
+                <li>：安徽省阜阳市</li>
+                <li>: 1997.11.19</li>
+                <li>：1959319510@qq.com</li>
+                <li>: 18356504686</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 导航目录制作 -->
+    <div class="nav" id="nav_model">
+        <div class="box">
+            <div class="aboutme"><a href="#simpleint">基本介绍</a></div>
+            <div class="basenav">
+                <ul>
+                    <li><a href="#study">学习经历</a></li>
+                    <li></li>
+                    <li><a href="#myskill">个人技能</a></li>
+                    <li></li>
+                    <li><a href="#myworks">作品展示</a></li>
+                    <li></li>
+                    <li><a href="#myexperience">获奖情况</a></li>
+                    <li></li>
+                    <li><a href="#myappraisal">自我评价</a></li>
+                    <li></li>
+                    <li><a href="#mycontact">联系方式</a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- 导航目录结束 -->
+
+    <!-- 主修课程开始制作 -->
+    <div class="course" id="study">
+        <div class="coursehd">
+            <h3>学习经历</h3>
+            <hr>
+        </div>
+        <div class="school clearfix">
+            <button class="anhui " id="frist">安徽中医药大学 </button>
+            <button class="korea " id="second">韩国顺天乡大学</button>
+        </div>
+        <div class="coursebd-1">
+            <div class="schoolimg clearfix">
+                <ul>
+                    <li> <img src="images/school-1.jpg" id="school-1"></li>
+                    <li> <img src="images/school-2.jpg" id="school-2"></li>
+                    <li> <img src="images/school-3.jpg" id="school-3"></li>
+                </ul>
+            </div>
+            <div class="schooltext">
+                <h4 id="coursetext">安徽中医药大学/计算机科学与技术 2016.09-2018.07:</h4>
+                <p id="maincourse">主修课程： C语言程序设计，C++程序设计，Java程序设计，网页设计，电工电子技术，计算机网络，密码学等</p>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- 主修课程结束制作 -->
+    <!-- 个人技能开始制作 -->
+    <div class="skill" id="myskill">
+        <div class="skillhd">
+            <h3>个人技能</h3>
+            <hr>
+        </div>
+        <div class="skillbd clearfix">
+            <div class="mainskill-1">
+                <canvas id="circle1" width="300" height="300"></canvas>
+                <h4>HTML5</h4>
+            </div>
+            <div class="mainskill-2">
+                <canvas id="circle2" width="300" height="300"></canvas>
+                <h4>CSS3</h4>
+            </div>
+            <div class="mainskill-3">
+                <canvas id="circle3" width="300" height="300"></canvas>
+                <h4>C语言</h4>
+            </div>
+            <div class="mainskill-4">
+                <canvas id="circle4" width="300" height="300"></canvas>
+                <h4>C++</h4>
+            </div>
+            <div class="mainskill-5">
+                <canvas id="circle5" width="300" height="300"></canvas>
+                <h4>JAVA</h4>
+            </div>
+            <div class="mainskill-6">
+                <canvas id="circle6" width="300" height="300"></canvas>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="mainskill-7">
+                <canvas id="circle7" width="300" height="300"></canvas>
+                <h4>jQuery</h4>
+            </div>
+            <div class="mainskill-8">
+                <canvas id="circle8" width="300" height="300"></canvas>
+                <h4>微信小程序（目前正在自学中）</h4>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- 个人技能结束制作 -->
+    <!-- 作品展示开始制作 -->
+    <div class="works" id="myworks">
+        <div class="workshd">
+            <h3>作品展示</h3>
+            <hr>
+        </div>
+        <div class="workbd">
+            <div class="worksphoto">
+                <div class="imglist">
+                    <ul>
+                        <li class="item active"> <img src="images/works-11.jpg"></li>
+                        <li class="item"><img src="images/works2.jpg"></li>
+                        <li class="item"><img src="images/works-2.jpg"></li>
+                        <li class="item"><img src="images/works-4.jpg"></li>
+                        <li class="item"><img src="images/works-5.jpg"></li>
+                    </ul>
+                </div>
+                <button class="nextbtn" id="rightbtn"> &lt;</button>
+                <button class="downbtn" id="leftbtn"> &gt;</button>
+                <div class="pointlist">
+                    <ul>
+                        <li class="point active" data-index='0'></li>
+                        <li class="point" data-index='1'></li>
+                        <li class="point" data-index='2'></li>
+                        <li class="point" data-index='3'></li>
+                        <li class="point" data-index='4'></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="worksInfro">
+
+                <p id="intro">毕业作品-安卓开发：和搭档利用心率传感器和MindWave测量人体的心率与此时的压力指数。
+                    主要功能包括用户的登录与注册、心率和压力指数的测量、结果分析、测量记录的查询与提醒测量等。
+                </p>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 作品展示结束制作 -->
+    <!-- 获奖情况开始制作 -->
+    <div class="experience" id="myexperience">
+        <div class="experiencehd">
+            <h3>获奖情况</h3>
+            <hr>
+        </div>
+        <div class="experiencebd">
+            <ul>
+                <li class="schoolex clearfix">
+                    <div class="schoolexcripence1">
+                        <h5>优秀学生干部</h5>
+                        <p>参加校学生会工作一年，并获得校学生会优秀干部称号。</p>
+                    </div>
+                    <div class="schoolyears">
+                        <h4>2016-2017年</h4>
+                    </div>
+                </li>
+                <li></li>
+                <li>
+                    <div class="schoolexcripence2">
+                        <h5>校级二等奖学金</h5>
+                        <p>2016-2017学年因综测优异荣获安徽中医药大学校级二等奖学金。</p>
+                    </div>
+
+                    <div class="schoolyears">
+                        <h4>2017年</h4>
+                    </div>
+                </li>
+                <li></li>
+                <li>
+                    <div class="schoolexcripence1">
+                        <h5>校级三等奖学金</h5>
+                        <p>2017-2018学年因综测优异荣获安徽中医药大学校级三等奖学金。</p>
+                    </div>
+                    <div class="schoolyears">
+                        <h4>2017-2018年</h4>
+                    </div>
+                </li>
+                <li></li>
+                <li>
+                    <div class="schoolexcripence2">
+                        <h5>顺天乡大学奖学金</h5>
+                        <p>2018-2020年在韩绩点优异，每学期都获得不同程度的奖学金。</p>
+                    </div>
+                    <div class="schoolyears active">
+                        <h4>2018-2020年</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- 获奖情况结束制作 -->
+    <!-- 自我评价开始制作 -->
+    <div class="appraisal" id="myappraisal">
+        <div class="appraisalhd">
+            <h3>自我评价</h3>
+            <hr>
+        </div>
+        <div class="appraisalbd">
+            <div class="lifePhoto">
+                <div class="photo3D">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <ul>
+                <li>* 熟知计算机各种基础语言，有一定的完整项目开发经验。</li>
+                <li> * 具有很强的责任心和务实精神，不怕辛苦，能很好的完成所交付的任务。</li>
+                <li>* 具有较强的自学能力，善于钻研和分析问题，以此不断增强自身能力。</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 自我评价结束制作 -->
+    <!-- 联系方式开始制作 -->
+    <div class="contact clearfix" id="mycontact">
+        <div class="contacthd">
+            <h3>联系方式</h3>
+            <hr>
+        </div>
+        <div class="contactbd">
+            <h5>如果您对我的简历还满意，对我还感兴趣，请联系我！我希望能给公司和您的发展贡献自己的绵薄之力，谢谢！</h5>
+            <div class="contactWay">
+                <ul>
+                    <li>
+                        <div class="contactMap"></div>
+                        <div class="contactAdress">江苏省苏州市太仓市</div>
+                    </li>
+                    <li>
+                        <div class="contactEmail"></div>
+                        <div class="contactAdress">1959319510@qq.com</div>
+                    </li>
+                    <li>
+                        <div class="contacPhone"></div>
+                        <div class="contactAdress">18356504686</div>
+                    </li>
+                    <li>
+                        <div class="myResume"></div>
+                        <div class="contactResume"><a href="resume.zip"><u>请点击下载简历</u></a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 联系方式结束制作 -->
+
+
+    <script src="js/test.js"> </script>
+</body>
+
+</html>
